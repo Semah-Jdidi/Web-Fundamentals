@@ -1,0 +1,40 @@
+#padding{
+    padding: 40px 40px;
+
+}
+
+button{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(1px);
+}
+
+#button1{
+    border: 2px solid lime;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    color: lime;
+    padding: 5px 50px;
+}
+
+#button2{
+    border-radius: 100%;
+    border: 0;
+    background-color: lime;
+    color: white;
+    padding: 5px 14px;
+    font-size: 30px;
+}
+
+#button3{
+    border: 1px solid black;
+    background-color:dodgerblue;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 3px 3px black;
+}

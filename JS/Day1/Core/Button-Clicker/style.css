@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+
+/***** Navbar *****/
+
+.navholder{
+    display: flex;
+    justify-content: center;
+}
+
+.topnav{
+    height: 80px;
+    width: 60%;
+    padding: 0 40px;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav h2 {
+    font-size: 40px;
+}
+
+.searchbar{
+    border: 3px solid black;
+    height: 40px;
+    width: 350px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.login{
+    padding: 6px 20px;
+    background-color: #005792;
+    color: white;
+    font-size: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/**************** Web Page  *****************/
+
+.content-holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+/************** Main Content **************/
+
+
+.main-column {
+    width: 700px;
+    margin-right: 52px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ninja{
+    height: 350px;
+    width: 700px;
+    margin-bottom:30px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.button{
+    padding: 6px 20px;
+    margin-top: 10px;
+    background-color: #f8da5b;
+    color: black;
+    font-size: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/************** Side Content **************/
+
+.side-column{
+    width: 400px;
+}
+
+.side-content{
+    width: inherit;
+    padding: 20px;
+    border: 5px solid black;
+    font-size: 40px;
+}
+
+.button2{
+    padding: 6px 70px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #6db193;
+    color: black;
+    font-size: 30px;
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+}

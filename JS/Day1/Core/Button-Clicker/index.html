@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <!---------- Navigation Bar ----------->
+    <div class="navholder">
+        <div class="topnav">
+            <h2>Dojonary</h2>
+            <input class="searchbar" type="text" name="text" placeholder="Search">
+            <button class="login" onclick="logging(this)">Login</button>
+        </div>
+    </div>
+
+    <!----------- Web Page ------------->
+
+    <!----------- Main Content ------------->
+
+    <div class="content-holder">
+
+        <div class="main-column">     
+            <div class="ninja">
+                <div class="text">
+                    <h2>ninja</h2>
+                    <p><b>noun</b></p>
+                    <p>Plural: ninjas</p>
+                    <button class="button" onclick="alert('Ninja was clicked')">13 Likes</button>
+                </div>
+                <p class="paragraph">A practitioner skilled in the <br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <div class="ninja">
+                <div class="text">
+                    <h2>ninja</h2>
+                    <p><b>noun</b></p>
+                    <p>Plural: ninjas</p>
+                    <button class="button" onclick="alert('Ninja was clicked')">37 Likes</button>
+                </div>
+                <p class="paragraph">A <a href="#">programmer</a> who breaks <br>down problems with <a href="#">zen-</a>like <br> focus</p>
+            </div>
+        </div>
+
+        <!----------- Side Content ------------->
+
+        <div class="side-column">
+            <div class="side-content">
+                <p>Dojonary is <br> defined by <b>YOU</b></p>
+                <button class="button2" onclick="remove(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -64,11 +64,6 @@ body {
     width: 100%;
 }
 
-.placeholder img {
-    border-radius: 10px;
-    width: 700px;
-}
-
 .row {
     display: flex;
     align-items: flex-start;
